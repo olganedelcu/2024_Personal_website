@@ -1,0 +1,23 @@
+
+.card {
+    display: inline-block; /* Adjust width dynamically */
+    color: #fff;
+    background-color: rgba(5, 4, 1, 0.67);
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: normal;
+    font-family: Anta, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 200px;
+/* padding: 10px; */
+}
+/*
+.card-list {
+ list-style: none;
+ padding: 0;
+}
+*/

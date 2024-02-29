@@ -1,0 +1,48 @@
+.medium-card {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.medium-card h2 {
+    margin-bottom: 15px;
+    color: rgba(5, 4, 1, 0.67);
+}
+
+.medium-card .articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.medium-card .article {
+    width: calc(50% - 20px); /* Adjust the width as needed */
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.medium-card .article:last-child {
+    margin-right: 0;
+}
+
+.medium-card .article a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 30px;
+}
+
+.medium-card .article a:hover {
+    text-decoration: underline;
+}
+
+.medium-card .article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
